@@ -1,5 +1,6 @@
 //Maya Reich 2017
 //Processing sketch
+//2D Particle System
 
 ArrayList<Particle> particleGroup = new ArrayList<Particle>();
 int maxParticles = 10; 
@@ -30,8 +31,8 @@ void draw() {
 }
 
 class Particle {
-  public float x, y, xVelocity, yVelocity, size, gravity, weight, particleSize;
-  public color ballColor;
+  float x, y, xVelocity, yVelocity, size, gravity, weight, particleSize;
+  color ballColor;
 
   Particle() {
 
